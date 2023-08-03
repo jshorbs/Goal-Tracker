@@ -13,6 +13,8 @@
 		03A1092E2A7B211200BBDB27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A1092D2A7B211200BBDB27 /* Preview Assets.xcassets */; };
 		03A109302A7B211200BBDB27 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A1092F2A7B211200BBDB27 /* Persistence.swift */; };
 		03A109332A7B211200BBDB27 /* GoalTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03A109312A7B211200BBDB27 /* GoalTracker.xcdatamodeld */; };
+		03A1093A2A7B22FB00BBDB27 /* NewGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A109392A7B22FB00BBDB27 /* NewGoalView.swift */; };
+		03A1093C2A7B339D00BBDB27 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A1093B2A7B339D00BBDB27 /* Goal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		03A1092D2A7B211200BBDB27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		03A1092F2A7B211200BBDB27 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		03A109322A7B211200BBDB27 /* GoalTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoalTracker.xcdatamodel; sourceTree = "<group>"; };
+		03A109392A7B22FB00BBDB27 /* NewGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGoalView.swift; sourceTree = "<group>"; };
+		03A1093B2A7B339D00BBDB27 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 		03A109252A7B210F00BBDB27 /* GoalTracker */ = {
 			isa = PBXGroup;
 			children = (
+				03A1093B2A7B339D00BBDB27 /* Goal.swift */,
 				03A109262A7B210F00BBDB27 /* GoalTrackerApp.swift */,
 				03A109282A7B210F00BBDB27 /* ContentView.swift */,
+				03A109392A7B22FB00BBDB27 /* NewGoalView.swift */,
 				03A1092A2A7B211200BBDB27 /* Assets.xcassets */,
 				03A1092F2A7B211200BBDB27 /* Persistence.swift */,
 				03A109312A7B211200BBDB27 /* GoalTracker.xcdatamodeld */,
@@ -145,7 +151,9 @@
 			files = (
 				03A109302A7B211200BBDB27 /* Persistence.swift in Sources */,
 				03A109292A7B210F00BBDB27 /* ContentView.swift in Sources */,
+				03A1093A2A7B22FB00BBDB27 /* NewGoalView.swift in Sources */,
 				03A109272A7B210F00BBDB27 /* GoalTrackerApp.swift in Sources */,
+				03A1093C2A7B339D00BBDB27 /* Goal.swift in Sources */,
 				03A109332A7B211200BBDB27 /* GoalTracker.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
