@@ -6,16 +6,23 @@
 //
 
 import CoreData
-
+import SwiftUI
+import UIKit
 struct PersistenceController {
     static let shared = PersistenceController()
 
     static var preview: PersistenceController = {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
+        
         for _ in 0..<1 {
             let newGoal = GoalItem(context: viewContext)
-            newGoal.title = String()
+            newGoal.title = "Tutorial"
+            newGoal.aRed=0.0
+            newGoal.aGreen=0.0
+            newGoal.aBlue=0.0
+            
+            
             
         }
         //do {
